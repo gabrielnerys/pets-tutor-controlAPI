@@ -1,0 +1,33 @@
+{
+  "name": "pets-tutor-control-api",
+  "version": "1.0.0",
+  "description": "API to control pets and tutors for animal training or petshop services",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Gabriel Nery",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "eslint-plugin-jest": "^26.6.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui": "^4.13.0",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.20.0",
+    "jest": "^28.1.3",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "sinon": "^14.0.0",
+    "supertest": "^6.2.4"
+  }
+}
